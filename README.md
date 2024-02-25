@@ -13,7 +13,6 @@ An open-source tool to activate and reset the trial of [Internet Download Manage
 ## IAS Latest Release
 
 Last Release - v1.2 (12-Feb-2024)\
-[GitHub](https://github.com/WindowsAddict/IDM-Activation-Script) - [BitBucket](https://bitbucket.org/WindowsAddict/idm-activation-script/)
 
 ## Download / How to use it?
 
@@ -36,7 +35,6 @@ Last Release - v1.2 (12-Feb-2024)\
 
 ### Method 2 - Traditional
 
--   Download the file from [GitHub](https://github.com/WindowsAddict/IDM-Activation-Script/archive/refs/heads/main.zip) or [Bitbucket](https://bitbucket.org/WindowsAddict/idm-activation-script/get/main.zip)
 -   Right-click on the downloaded zip file and extract
 -   In the extracted folder, run the file named `IAS.cmd`
 -   You will see the activation options, and follow onscreen instructions.
@@ -82,7 +80,6 @@ Last Release - v1.2 (12-Feb-2024)\
 ## Troubleshoot
 
 -   Browser Integration Fix: [Chrome](https://www.internetdownloadmanager.com/register/new_faq/bi9.html) - [Firefox](https://www.internetdownloadmanager.com/register/new_faq/bi4.html)
--   Raise the issue on [Github](https://github.com/WindowsAddict/IDM-Activation-Script) with screenshots.
 
 ## Changelog
 
@@ -106,7 +103,6 @@ Last Release - v1.2 (12-Feb-2024)\
 -   Fixed an issue where the script can not activate and reset IDM in non-admin user accounts.
 -   Fixed an issue where the script incorrectly shows that IDM is activated.
 -   Fixed an issue where a fake serial pop-up may appear. The script will also show the info to run the activation option again without using the reset option.
--   Fixed an issue where Powershell code to launch IAS may not work due to GitHub block in some regions. It will use the new [BitBucket](https://bitbucket.org/WindowsAddict/idm-activation-script/) repo as a fallback link.
 -   IDM registry scanning and locking code is now written in Powershell.
 -   The script update checker code is added to the script.
 -   The script will now disable quick edit mode temporarily because users often click inside the script window and it pauses the script.
@@ -115,7 +111,6 @@ Last Release - v1.2 (12-Feb-2024)\
 
 #### v0.8
 
--   Move the project to [Github](https://github.com/WindowsAddict/IDM-Activation-Script) and [massgrave.dev](https://massgrave.dev/idm-activation-script.html)
 -   Minor bug fixes
 -   Add info to inform users that empty registry keys are being deleted when the script deletes a lot of them
 
@@ -125,14 +120,6 @@ Last Release - v1.2 (12-Feb-2024)\
 
 ![](https://massgrave.dev/images/IAS_Freeze_Trial.png?raw=true)
 
-## Credits
-
-|                                             |                                                                                                                                                                                                                                        |
-|-------------------|-----------------------------------------------------|
-| Dukun Cabul                                 | Original researcher of this IDM trial reset and activation logic, made an Autoit tool for these methods, [IDM-AIO_2020_Final](https://nsaneforums.com/topic/371047-discussion-internet-download-manager-fixes/page/8/#comment-1632062) |
-| AveYo aka BAU                               | [reg_own lean and mean snippet](https://pastebin.com/XTPt0JSC)                                                                                                                                                                         |
-| [abbodi1406](https://github.com/abbodi1406) | Help in coding                                                                                                                                                                                                                         |
-| WindowsAddict                               | IAS Author                                                                                                                                                                                                                             |
 
 And thanks to the IAS users for their interest, feedback, and assistance.
 
